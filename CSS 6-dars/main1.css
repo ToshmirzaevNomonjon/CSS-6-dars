@@ -1,0 +1,135 @@
+.wrap{
+    width: 1200px;
+    height: 1200px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+}
+.main-menu{
+    width: 825px;
+    height: 240px;
+    background-color: white;
+    color: #e62424;
+    position: relative;
+    left: 30px;
+   /* z-index: -1;*/
+}
+.main-menu-item1{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    position: absolute;
+    left: 925px;
+    top: -10px;
+}
+.main-menu-item2{
+    background-color: red;
+    width: 150px;
+    height: 140px;
+    position: relative;
+    left: 950px;
+    top: -350px;
+}
+.main-menu:after{
+    content: '';
+    border: 30px solid transparent;
+    border-top-color: white;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(270deg) ;
+    top: 95px;
+    left: 825px;
+}
+.main-menu-item3{
+    width: 825px;
+    height: 240px;
+    background-color: white;
+    position: relative;
+    left: 270px;
+    top: -270px;
+    color: orange;
+}
+.main-menu-item3:after{
+    content: '';
+    border: 30px solid transparent;
+    border-top-color: white;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(90deg) ;
+    top: 85px;
+    left: -55px;
+}
+.main-menu-item4{
+    position: absolute;
+    left: -275px;
+    top: 50px;
+    background-color: orange;
+    width: 150px;
+    height: 140px;
+}
+.main-menu-item5{
+    width: 200px;
+    height: 240px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: -300px;
+}
+.main-menu-item6{
+    background-color: white;
+    width: 825px;
+    height: 240px;
+    position: absolute;
+    left: -25px;
+    top: 535px;
+    color: royalblue;
+}
+.main-menu-item6:after{
+    content: '';
+    border: 30px solid transparent;
+    border-top-color: white;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(270deg) ;
+    top: 95px;
+    left: 825px;
+}
+.main-menu7{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+}
+.main-menu-item7{
+    background-color: royalblue;
+    width: 150px;
+    height: 140px;
+}
+.main-menu-item8{
+    background-color: white;
+    position: relative;
+    top: -100px;
+    width: 825px;
+    height: 240px;
+}
+.main-menu8:after{
+    content: '';
+    border: 30px solid transparent;
+    border-top-color: white;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(90deg) ;
+    top: -10px;
+    left: -38px;
+}
+.main-menu9{
+    background-color: white;
+    width: 200px;
+    height: 240px;
+    position: relative;
+    left: 5px;
+    top: -415px;
+}
+.main-menu-item10{
+    background-color: mediumseagreen;
+    width: 150px;
+    height: 140px;
+}
